@@ -3,30 +3,36 @@ export function sobreNosotros() {
  
   container.innerHTML = `
     <div class="container mx-auto px-4 py-5">
-      <div class="mx-auto" style="max-width: 900px;">
-        
-        <!-- Botón Volver -->
-        <a href="/" class="btn btn-outline-secondary mb-4">
+      <div class="w-100 text-center pb-4 text-lg-start">
+        <a href="/" class="btn btn-outline-secondary text-center">
           <i class="bi bi-arrow-left me-2"></i>Volver al inicio
         </a>
+      </div>
+      <div class="mx-auto" style="max-width: 1300px;">
 
-        <!-- Header -->
-        <div class="mb-5 text-center">
-          <h1 class="display-4 fw-semibold mb-3">Sobre nosotros</h1>
-          <p class="fs-5 text-muted">
-            Más de 10 años brindando servicios profesionales de limpieza en Buenos Aires
-          </p>
-        </div>
+        <!-- Hero título / subtítulo -->
+        <section class=" d-flex align-items-center justify-content-center text-center px-3">
+          <div class="">
+            <h1 class="display-4 fw-bold pt-4 hero-title text-white rounded-bottom">
+              Sobre <span class="text-dark bg-warning p-2 rounded">nosotros</span>
+            </h1>
+            <p class="lead text-muted mb-5 pt-4">
+              Más de 10 años brindando servicios profesionales de limpieza en Buenos Aires.
+            </p>
+          </div>
+        </section>
 
         <!-- Historia -->
         <div class="mb-5">
-          <h2 class="h3 fw-semibold mb-3">Nuestra historia</h2>
-          <p class="text-muted mb-3">
+          <h2 class="h3 fw-bold text-dark mb-3 bg-warning hero-diseño p-3 rounded-3 fs-3 tex">Nuestra 
+          <span class="text-white border-bottom border-2 border-white pb-1">Historia</span>
+          </h2>
+          <p class="text-muted mb-3 pt-lg-3 fs-5-lg">
             Casa Impecable nació en 2013 con una misión simple: hacer que mantener tu hogar limpio sea
             fácil, confiable y accesible. Comenzamos como un pequeño equipo de 3 personas apasionadas
             por la limpieza profesional, y hoy contamos con más de 50 profesionales certificados.
           </p>
-          <p class="text-muted">
+          <p class="text-muted fs-5-lg pb-lg-3">
             A lo largo de estos años, hemos limpiado más de 15,000 hogares, siempre manteniendo nuestro
             compromiso con la calidad, la confianza y el uso de productos eco-friendly. Cada miembro de
             nuestro equipo está cuidadosamente seleccionado, capacitado y verificado para garantizar tu
@@ -36,33 +42,37 @@ export function sobreNosotros() {
 
         <!-- Valores -->
         <div class="mb-5">
-          <h2 class="h3 fw-semibold mb-4 text-center">Nuestros valores</h2>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="title-wrapper">
+          <h2 class="hero-diseño2 d-inline-block fw-semibold mb-4 text-center">
+            Nuestros valores
+          </h2>
+        </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 pt-3 pb-lg-5">
             <div class="col">
-              <div class="card h-100">
-                <div class="card-body text-center">
+              <div class="card h-100 pb-lg-5">
+                <div class="card-body text-center fs-6-lg">
                   <i class="bi bi-shield-check text-primary fs-1 mb-3 d-block"></i>
                   <h3 class="card-title h5 mb-2">Confianza</h3>
-                  <p class="card-text text-muted small">
+                  <p class="card-text text-muted small ">
                     Personal verificado con antecedentes y seguro de responsabilidad civil
                   </p>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
-                <div class="card-body text-center">
+              <div class="card h-100 pb-lg-5">
+                <div class="card-body text-center fs-6-lg">
                   <i class="bi bi-heart-fill text-primary fs-1 mb-3 d-block"></i>
                   <h3 class="card-title h5 mb-2">Dedicación</h3>
-                  <p class="card-text text-muted small">
+                  <p class="card-text text-muted small ">
                     Tratamos cada hogar como si fuera el nuestro, con cuidado y atención al detalle
                   </p>
                 </div>
               </div>
             </div>
             <div class="col">
-              <div class="card h-100">
-                <div class="card-body text-center">
+              <div class="card h-100 pb-lg-5">
+                <div class="card-body text-center fs-6-lg">
                   <i class="bi bi-tree text-primary fs-1 mb-3 d-block"></i>
                   <h3 class="card-title h5 mb-2">Sostenibilidad</h3>
                   <p class="card-text text-muted small">
@@ -75,9 +85,9 @@ export function sobreNosotros() {
         </div>
 
         <!-- Por qué elegirnos -->
-        <div class="mb-5">
+        <div class="mb-5 ">
           <h2 class="h3 fw-semibold mb-4 text-center">Por qué elegirnos</h2>
-          <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="row row-cols-1 row-cols-md-2 g-4 py-lg-5 fs-6-lg">
             <div class="col">
               <div class="d-flex gap-3">
                 <i class="bi bi-award-fill text-primary fs-2 flex-shrink-0"></i>
@@ -128,17 +138,15 @@ export function sobreNosotros() {
           </div>
         </div>
 
-        <!-- CTA -->
-        <div class="bg-primary text-white rounded p-5 text-center">
-          <h2 class="h3 fw-semibold mb-3">
-            ¿Listo para experimentar la diferencia?
-          </h2>
-          <p class="mb-4">
+        <div class="bg-success text-white rounded p-4 text-center position-relative">
+        <div class="box box--desingv2 top-0 start-0 w-100 position-absolute rounded-2"></div>
+          <h2 class="h3 fw-semibold z-3 position-relative mt-5">¿Listo para experimentar?</h2>
+          <p class="my-4 z-3 m-0">
             Uníte a miles de familias que confían en nosotros para mantener sus hogares impecables
           </p>
-          <a href="/quote" class="btn btn-success btn-lg">
-            Solicitar presupuesto
-          </a>
+          <a href="/contact" class="btn btn-verde btn-lg">
+            Contactar al Soporte
+          </a>  
         </div>
         
       </div>

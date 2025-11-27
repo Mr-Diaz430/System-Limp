@@ -3,13 +3,13 @@ export function preguntasFrecuentes() {
 
   container.innerHTML = `
     <div class="container mx-auto px-4 py-5">
-     <div class="w-100 text-center pb-4">
-      <a href="/" class="btn btn-outline-secondary text-center">
+     <div class="w-100 text-center text-lg-start pb-4">
+      <a href="/" class="btn btn-outline-secondary text-center ">
         <i class="bi bi-arrow-left me-2"></i>Volver al inicio
       </a>
      </div>
        
-      <div class="mx-auto" style="max-width: 900px;">
+      <div class="mx-auto" style="max-width: 1300px;">
         
         <!-- Header -->
         <div class="text-center">
@@ -103,7 +103,7 @@ export function preguntasFrecuentes() {
 
         <!-- CTA -->
         <div class="bg-success text-white rounded p-5 text-center position-relative">
-        <div class="box top-0 start-0 w-100 position-absolute rounded-2"></div>
+        <div class="box box--desingv1 top-0 start-0 w-100 position-absolute rounded-2"></div>
           <h2 class="h3 fw-semibold z-3 position-relative mt-5 ">¿Tenés otra pregunta?</h2>
           <p class="mb-4 z-3 m-0">
             No dudes en contactarnos, estamos para ayudarte
