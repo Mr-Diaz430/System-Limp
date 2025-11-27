@@ -1,4 +1,9 @@
-// MEDIAS
+// 
+body {
+  overflow-x: hidden;
+}
+
+// MEDIDAS
 @media (width >= 992px) {
     .fs-5-lg {
       font-size: 1.25rem !important;          // ≈ h2 en desktop
