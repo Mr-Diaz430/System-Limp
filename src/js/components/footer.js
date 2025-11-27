@@ -5,55 +5,33 @@ export function footer() {
         <div class="row g-4">
           
           <!-- Brand -->
-          <div class="col-md-3">
-            <a href="/" class="d-flex align-items-center gap-2 text-decoration-none mb-3" data-navigo>
+          <div class="col-md-4">
+            <a href="javascript:void(0)" class="d-flex align-items-center gap-2 text-decoration-none mb-3" data-navigo>
               <i class="bi bi-stars text-primary fs-4"></i>
               <span class="h5 mb-0 text-primary fw-bold">Casa Impecable</span>
             </a>
             <p class="text-muted small">
-              Servicio profesional de limpieza del hogar con garantía de satisfacción.
+              Servicio profesional de limpieza con garantía de satisfacción. Más de 10 años en Buenos Aires.
             </p>
           </div>
 
-          <!-- Services -->
-          <div class="col-md-3">
+          <!-- Servicios reales -->
+          <div class="col-md-4">
             <h3 class="h5 fw-semibold mb-3">Servicios</h3>
             <ul class="list-unstyled">
               <li class="mb-2">
-                <a href="/services/standard-cleaning" class="text-muted text-decoration-none small" data-navigo>
+                <a href="/#servicios" class="text-muted text-decoration-none small">
                   Limpieza Standard
                 </a>
               </li>
               <li class="mb-2">
-                <a href="/services/deep-cleaning" class="text-muted text-decoration-none small" data-navigo>
-                  Limpieza Profunda
+                <a href="/#servicios" class="text-muted text-decoration-none small">
+                  Limpiezas Programadas
                 </a>
               </li>
-              <li class="mb-2">
-                <a href="/services/move-in-out" class="text-muted text-decoration-none small" data-navigo>
-                  Limpieza Mudanza
-                </a>
-              </li>
-              <li class="mb-2">
-                <a href="/services/post-construction" class="text-muted text-decoration-none small" data-navigo>
-                  Post-Obra
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Company -->
-          <div class="col-md-3">
-            <h3 class="h5 fw-semibold mb-3">Empresa</h3>
-            <ul class="list-unstyled">
               <li class="mb-2">
                 <a href="/sobre-nosotros" class="text-muted text-decoration-none small" data-navigo>
-                  Nosotros
-                </a>
-              </li>
-              <li class="mb-2">
-                <a href="/zonas-cobertura" class="text-muted text-decoration-none small" data-navigo>
-                  Zonas de Cobertura
+                  Sobre Nosotros
                 </a>
               </li>
               <li class="mb-2">
@@ -61,40 +39,32 @@ export function footer() {
                   Preguntas Frecuentes
                 </a>
               </li>
-              <li class="mb-2">
-                <a href="/quote" class="text-muted text-decoration-none small" data-navigo>
-                  Solicitar Presupuesto
-                </a>
-              </li>
             </ul>
           </div>
 
-          <!-- Contact -->
-          <div class="col-md-3">
+          <!-- Contacto -->
+          <div class="col-md-4">
             <h3 class="h5 fw-semibold mb-3">Contacto</h3>
             <ul class="list-unstyled text-muted small">
               <li class="mb-1">Lunes a Sábado</li>
               <li class="mb-2">8:00 - 20:00 hs</li>
               <li class="mb-2">
-                <a href="tel:08005550123" class="text-decoration-none text-muted">
+                <a href="javascript:void(0)" class="text-decoration-none text-muted">
                   <i class="bi bi-telephone me-1"></i>0800-555-0123
                 </a>
               </li>
               <li class="mb-3">
-                <a href="mailto:info@casaimpecable.com" class="text-decoration-none text-muted">
+                <a href="javascript:void(0)" class="text-decoration-none text-muted">
                   <i class="bi bi-envelope me-1"></i>info@casaimpecable.com
                 </a>
               </li>
             </ul>
             <div class="d-flex gap-2">
-              <a href="https://facebook.com" target="_blank" class="text-muted">
+              <a href="javascript:void(0)" target="" class="text-muted">
                 <i class="bi bi-facebook fs-5"></i>
               </a>
-              <a href="https://instagram.com" target="_blank" class="text-muted">
+              <a href="javascript:void(0)" target="" class="text-muted">
                 <i class="bi bi-instagram fs-5"></i>
-              </a>
-              <a href="https://twitter.com" target="_blank" class="text-muted">
-                <i class="bi bi-twitter fs-5"></i>
               </a>
             </div>
           </div>
