@@ -6,6 +6,7 @@ import './styles/main.scss'
 
 import { footer } from './js/components/footer.js';
 import { menu } from './js/components/menu.js';
+import { activarMenuTransparente } from './js/helpers/menuLogica.js';
 
 
 document.querySelector('#app').innerHTML = `
@@ -19,5 +20,6 @@ document.querySelector('#app').innerHTML = `
   ${footer()}
   `;
 
+  activarMenuTransparente(router); 
 router.resolve()
 router.updatePageLinks()
