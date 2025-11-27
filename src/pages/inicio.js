@@ -1,6 +1,17 @@
 export function inicio() {
   const container = document.getElementById('content');
   container.innerHTML = `
+    ${hero()}
+    ${trustBar()}
+    ${comoFunciona()}
+    ${servicios()}
+    ${resenia()}
+    ${divGreen()}
+  `;
+}
+ 
+function hero(){
+  return`
     <!-- SECCIÓN 1: HERO -->
     <section id="hero" class="position-relative vh-100 overflow-hidden">      
       <div class="position-absolute top-0 start-0 w-100 h-100" style="z-index: 0;">
@@ -42,9 +53,11 @@ export function inicio() {
         </div>
       </div>
     </section>
+  `;
+}
 
-
-  
+function trustBar(){
+  return`
     <!-- SECCIÓN 2: TRUST BAR -->
     <section class="bg-light py-5 border-bottom">
       <div class="container">
@@ -77,10 +90,13 @@ export function inicio() {
         </div>
       </div>
     </section>
+  `;
+}
 
-
-    <!-- SECCIÓN 3: CÓMO FUNCIONA -->
-    <section class="py-5 bg-white">
+function comoFunciona(){
+  return`
+     <!-- SECCIÓN 3: CÓMO FUNCIONA -->
+    <section class="py-5 bg-white overflow-hidden">
       <div class="container">
         
         <!-- Título con subrayado decorativo -->
@@ -129,8 +145,11 @@ export function inicio() {
         </div>
       </div>
     </section>
-
-  
+  `;
+}
+ 
+function servicios(){
+  return`
     <!-- SECCIÓN 4: SERVICIOS -->
     <section id="servicios" class="py-5 bg-light">
       <div class="container">
@@ -210,9 +229,13 @@ export function inicio() {
         </div>
       </div>
     </section>
+  `;
+}
 
-
-    <!-- SECCIÓN 5: Reseñas - LO MÁS IMPORTANTE -->
+function resenia(){
+  
+  return `
+      <!-- SECCIÓN 5: Reseñas - LO MÁS IMPORTANTE -->
 <section id="reseñas" class="py-5 bg-primary text-white">
   <div class="container">
     
@@ -239,7 +262,7 @@ export function inicio() {
         <div class="carousel-item active">
           <div class="row justify-content-center align-items-center g-4">
             <div class="col-lg-5">
-              <img src="public/house3.jpg" 
+              <img src="house3.jpg" 
                    class="img-fluid rounded shadow-lg" 
                    alt="Casa del cliente">
             </div>
@@ -277,7 +300,7 @@ export function inicio() {
         <div class="carousel-item">
           <div class="row justify-content-center align-items-center g-4">
             <div class="col-lg-5">
-              <img src="public/house2.jpg" 
+              <img src="house2.jpg" 
                    class="img-fluid rounded shadow-lg" 
                    alt="Casa del cliente 2">
             </div>
@@ -310,7 +333,7 @@ export function inicio() {
         <div class="carousel-item">
           <div class="row justify-content-center align-items-center g-4">
             <div class="col-lg-5">
-              <img src="public/house3.jpg" 
+              <img src="house3.jpg" 
                    class="img-fluid rounded shadow-lg" 
                    alt="Casa del cliente 3">
             </div>
@@ -343,6 +366,12 @@ export function inicio() {
   </div>
 </section>
 
+  `;
+
+}
+
+function divGreen(){
+  return`
     <section class="bg-success py-5 bg-primary text-white">
       <div class="container text-center">
         <h2 class="display-5 fw-semibold mb-3">¿Tu casa está lista para brillar?</h2>
@@ -350,6 +379,5 @@ export function inicio() {
         <a href="javascript:void(0)" class="btn btn-success btn-lg">Reservar ahora</a>
       </div>
     </section>
-
   `;
 }
