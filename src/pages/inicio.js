@@ -21,14 +21,27 @@ export function inicio() {
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"></div>
       </div>
       
-      <div class="container position-relative h-100 d-flex align-items-center" style="z-index: 1;">
-        <div class="max-w-2xl">
-          <h1 class="display-3 fw-semibold text-white mb-4">
-            Casa impecable, sin levantar un dedo
-          </h1>
-          <p class="fs-4 text-white-90 mb-6">
-            Servicio recurrente certificado, 100% productos eco y garantía de satisfacción
+      <div class="container position-relative h-100 d-flex align-items-center justify-content-center" style="z-index: 1;">
+        <div class="text-center text-white max-w-3xl">
+      
+          <!-- Títulos -->
+          <h2 class="display-2 mb-3">
+            <strong>Relajate</strong>, nosotros nos <strong>ocupamos de la limpieza</strong>
+          </h2>
+          <p class="fs-3 fw-light mb-5 opacity-90">
+            Servicio recurrente certificado, Limpieza profesional y garantía de satisfacción
           </p>
+          
+          <!-- Botones -->
+          <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
+            <a href="/quote" class="btn btn-primary btn-lg px-5 py-3">
+              <i class="bi bi-calculator me-2"></i>Cotizar ahora
+            </a>
+            <a href="tel:+541199999999" class="btn btn-outline-light btn-lg px-5 py-3">
+              <i class="bi bi-telephone me-2"></i>Llamanos
+            </a>
+          </div>
+
         </div>
       </div>
     </section>
@@ -63,43 +76,58 @@ export function inicio() {
               <small class="text-muted">Satisfacción 100% garantizada</small>
             </div>
           </div>
-          
+
         </div>
       </div>
     </section>
 
 
     <!-- SECCIÓN 3: CÓMO FUNCIONA -->
-    <section class="bg-danger py-5">
+    <section class="py-5 bg-white">
       <div class="container">
-        <h2 class="text-center display-5 fw-semibold mb-5">Cómo funciona</h2>
-        <div class="row g-4 text-center">
+        
+        <!-- Título con subrayado decorativo -->
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-semibold mb-3">Cómo funciona</h2>
+          <div class="mx-auto" style="width: 80px; height: 4px; background: var(--bs-primary); border-radius: 2px;"></div>
+        </div>
+        
+        <div class="row g-5 text-center">
           <div class="col-md-4">
-            <div class="bg-accent text-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
-                 style="width: 60px; height: 60px;">
-              <span class="fs-3 fw-bold">1</span>
+            <!-- Círculo más grande y con fondo primario -->
+            <div class="mb-4">
+              <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center shadow" 
+                  style="width: 50px; height: 50px;">
+                <span class="fs-2 fw-bold">1</span>
+              </div>
             </div>
             <i class="bi bi-calendar-check text-primary d-block mb-3 fs-1"></i>
-            <h3 class="h5 mb-2">Reservá online</h3>
-            <p class="text-muted">Elegí fecha, hora y tipo de servicio en minutos</p>
+            <h3 class="h4 fw-semibold mb-2">Reservá online</h3>
+            <p class="text-muted px-3">Elegí fecha, hora y tipo de servicio en minutos</p>
           </div>
+          
           <div class="col-md-4">
-            <div class="bg-accent text-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
-                 style="width: 60px; height: 60px;">
-              <span class="fs-3 fw-bold">2</span>
+            <div class="mb-4">
+              <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center shadow" 
+                  style="width: 50px; height: 50px;">
+                <span class="fs-2 fw-bold">2</span>
+              </div>
             </div>
             <i class="bi bi-house-door text-primary d-block mb-3 fs-1"></i>
-            <h3 class="h5 mb-2">Relajate en casa</h3>
-            <p class="text-muted">Nuestro equipo llega puntual con todo el equipamiento</p>
+            <h3 class="h4 fw-semibold mb-2">Relajate en casa</h3>
+            <p class="text-muted px-3">Nuestro equipo llega puntual con todo el equipamiento</p>
           </div>
+          
           <div class="col-md-4">
-            <div class="bg-accent text-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3" 
-                 style="width: 60px; height: 60px;">
-              <span class="fs-3 fw-bold">3</span>
+            <div class="mb-4">
+              <div class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center shadow" 
+                  style="width: 50px; height: 50px;">
+                <span class="fs-2 fw-bold">3</span>
+              </div>
             </div>
             <i class="bi bi-stars text-primary d-block mb-3 fs-1"></i>
-            <h3 class="h5 mb-2">Disfrutá el resultado</h3>
-            <p class="text-muted">Casa impecable con garantía de satisfacción</p>
+            <h3 class="h4 fw-semibold mb-2">Disfrutá el resultado</h3>
+            <p class="text-muted px-3">Casa impecable con garantía de satisfacción</p>
           </div>
         </div>
       </div>
@@ -124,16 +152,22 @@ export function inicio() {
                   <div class="mb-3">
                     <div class="d-flex align-items-center gap-2 mb-2">
                       <i class="bi bi-check-circle-fill text-primary"></i>
-                      <small>Baños y cocina</small>
+                      <small>Aspirado y trapeado.</small>
                     </div>
                     <div class="d-flex align-items-center gap-2 mb-2">
                       <i class="bi bi-check-circle-fill text-primary"></i>
-                      <small>Aspirado y barrido</small>
+                      <small>Limpieza detallada de baños.</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                      <i class="bi bi-check-circle-fill text-primary"></i>
+                      <small>Polvo de superficies, estantes y muebles.</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                      <i class="bi bi-check-circle-fill text-primary"></i>
+                      <small>Orden y desinfección general de espacios.</small>
                     </div>
                   </div>
-                  <p class="fw-bold text-primary fs-5">$5.500</p>
                   <div class="d-grid gap-2">
-                    <a href="#" class="btn btn-outline-primary btn-sm">Ver checklist</a>
                     <a href="#" class="btn btn-success btn-sm">Reservar</a>
                   </div>
                 </div>
@@ -147,22 +181,28 @@ export function inicio() {
               <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400" 
                    class="card-img-top" alt="Limpieza mudanza">
               <div class="card-body d-flex flex-column">
-                <h5 class="card-title">Limpieza Mudanza</h5>
-                <p class="card-text text-muted small">Pre/post mudanza para entrega/recibimiento</p>
+                <h5 class="card-title">Limpiezas programadas</h5>
+                <p class="card-text text-muted small"> Nuestro servicio más popular. Ideal para mantenimiento semanal o quincenal de un hogar, hospedajes o AirBnb.</p>
                 <div class="mt-auto">
                   <div class="mb-3">
                     <div class="d-flex align-items-center gap-2 mb-2">
                       <i class="bi bi-check-circle-fill text-primary"></i>
-                      <small>Limpieza integral</small>
+                      <small>Mantenimiento semanal, quincenal o según la necesidad.</small>
                     </div>
                     <div class="d-flex align-items-center gap-2 mb-2">
                       <i class="bi bi-check-circle-fill text-primary"></i>
-                      <small>Desinfección profunda</small>
+                      <small>Limpieza rápida y eficiente de pisos y superficies.</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                      <i class="bi bi-check-circle-fill text-primary"></i>
+                      <small>Desinfección profunda.</small>
+                    </div>
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                      <i class="bi bi-check-circle-fill text-primary"></i>
+                      <small>Aireado y orden general del espacio.</small>
                     </div>
                   </div>
-                  <p class="fw-bold text-primary fs-5">$12.500</p>
                   <div class="d-grid gap-2">
-                    <a href="#" class="btn btn-outline-primary btn-sm">Ver checklist</a>
                     <a href="#" class="btn btn-success btn-sm">Reservar</a>
                   </div>
                 </div>
@@ -175,49 +215,136 @@ export function inicio() {
     </section>
 
 
-    <!-- SECCIÓN 5: Reseñas -->
-    <section id="reseñas" class="bg-light py-5">
-      <div class="container">
-        <h2 class="text-center display-5 fw-semibold mb-5">Lo que dicen nuestros clientes</h2>
+    <!-- SECCIÓN 5: Reseñas - LO MÁS IMPORTANTE -->
+<section id="reseñas" class="py-5 bg-primary text-white">
+  <div class="container">
+    
+    <!-- Título destacado -->
+    <div class="text-center mb-5">
+      <h2 class="display-4 fw-bold mb-3">Lo que dicen nuestros clientes</h2>
+      <div class="mx-auto" style="width: 100px; height: 4px; background: var(--bs-white); border-radius: 2px;"></div>
+    </div>
+
+    <!-- Carrousel Bootstrap -->
+    <div id="testimonialCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="5000">
+      
+      <!-- Indicadores (dots) - MOVIDOS debajo de la imagen -->
+      <div class="carousel-indicators position-relative mb-0" style="bottom: -40px;">
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonio 1"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Testimonio 2"></button>
+        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Testimonio 3"></button>
+      </div>
+
+      <!-- Slides -->
+      <div class="carousel-inner">
         
-        <div class="row justify-content-center">
-          <div class="col-md-10">
-            <div class="card shadow-sm">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="https://images.unsplash.com/photo-1600585154340-be6161d56f7f?w=400" 
-                       class="img-fluid rounded-start h-100 object-cover" 
-                       alt="Casa del cliente">
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="row justify-content-center align-items-center g-4">
+            <div class="col-lg-5">
+              <img src="public/house3.jpg" 
+                   class="img-fluid rounded shadow-lg" 
+                   alt="Casa del cliente">
+            </div>
+            <div class="col-lg-5">
+              <div class="p-4">
+                <!-- Estrellas -->
+                <div class="mb-3">
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
                 </div>
-                <div class="col-md-8">
-                  <div class="card-body p-4">
-                    <div class="mb-3">
-                      <i class="bi bi-star-fill text-warning"></i>
-                      <i class="bi bi-star-fill text-warning"></i>
-                      <i class="bi bi-star-fill text-warning"></i>
-                      <i class="bi bi-star-fill text-warning"></i>
-                      <i class="bi bi-star-fill text-warning"></i>
-                    </div>
-                    <blockquote class="blockquote">
-                      <p>"Excelente servicio, llegaron puntuales y dejaron mi casa impecable. Los recomiendo totalmente."</p>
-                      <footer class="blockquote-footer mt-2">María González <cite class="text-muted">Palermo</cite></footer>
-                    </blockquote>
-                  </div>
+                
+                <!-- Texto -->
+                <blockquote class="blockquote mb-4">
+                  <p class="fs-4 fst-italic mb-3">"Excelente servicio, llegaron puntuales y dejaron mi casa impecable. Los recomiendo totalmente."</p>
+                  <footer class="blockquote-footer text-white fst-italic">
+                    <strong>María González</strong><br>
+                    <cite class="text-white-50">Palermo, Buenos Aires</cite>
+                  </footer>
+                </blockquote>
+                
+                <!-- Badge de confianza -->
+                <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <small class="fw-semibold">Cliente verificado</small>
                 </div>
               </div>
- 
-              <!-- Controles (placeholder para luego conectar JS) -->
-              <div class="card-footer bg-transparent text-center">
-                <div class="btn-group" role="group">
-                  <button class="btn btn-sm btn-outline-primary active" disabled>Anterior</button>
-                  <button class="btn btn-sm btn-outline-primary">Siguiente</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center align-items-center g-4">
+            <div class="col-lg-5">
+              <img src="public/house2.jpg" 
+                   class="img-fluid rounded shadow-lg" 
+                   alt="Casa del cliente 2">
+            </div>
+            <div class="col-lg-5">
+              <div class="p-4">
+                <div class="mb-3">
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                </div>
+                <blockquote class="blockquote mb-4">
+                  <p class="fs-4 fst-italic mb-3">"Profesionales de primera. Mi casa nunca había estado tan limpia. Super recomendados!"</p>
+                  <footer class="blockquote-footer text-white fst-italic">
+                    <strong>Carlos Martínez</strong><br>
+                    <cite class="text-white-50">Belgrano, Buenos Aires</cite>
+                  </footer>
+                </blockquote>
+                <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <small class="fw-semibold">Cliente verificado</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item">
+          <div class="row justify-content-center align-items-center g-4">
+            <div class="col-lg-5">
+              <img src="public/house3.jpg" 
+                   class="img-fluid rounded shadow-lg" 
+                   alt="Casa del cliente 3">
+            </div>
+            <div class="col-lg-5">
+              <div class="p-4">
+                <div class="mb-3">
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                  <i class="bi bi-star-fill text-warning fs-3"></i>
+                </div>
+                <blockquote class="blockquote mb-4">
+                  <p class="fs-4 fst-italic mb-3">"El equipo es confiable, puntual y muy detallista. Vuelvo a contratarlos sin dudarlo."</p>
+                  <footer class="blockquote-footer text-white fst-italic">
+                    <strong>Lucía Fernández</strong><br>
+                    <cite class="text-white-50">Recoleta, Buenos Aires</cite>
+                  </footer>
+                </blockquote>
+                <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
+                  <i class="bi bi-check-circle-fill"></i>
+                  <small class="fw-semibold">Cliente verificado</small>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
 
     <section class="bg-success py-5 bg-primary text-white">

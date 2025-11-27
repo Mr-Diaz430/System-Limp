@@ -23,7 +23,7 @@ document.querySelector('#app').innerHTML = `
     <h4>FOOTER</h4>
   </footer>
 
-  `
+`
 
 router.resolve()
 router.updatePageLinks()
