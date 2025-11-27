@@ -232,130 +232,130 @@ function servicios(){
   `;
 }
 
-function resenia(){
-  
+function resenia(){ 
   return `
-      <!-- SECCIÓN 5: Reseñas - LO MÁS IMPORTANTE -->
-<section id="reseñas" class="py-5 bg-primary text-white">
-  <div class="container">
-    
-    <!-- Título destacado -->
-    <div class="text-center mb-5">
-      <h2 class="display-4 fw-bold mb-3">Lo que dicen nuestros clientes</h2>
-      <div class="mx-auto" style="width: 100px; height: 4px; background: var(--bs-white); border-radius: 2px;"></div>
-    </div>
-
-    <!-- Carrousel Bootstrap -->
-    <div id="testimonialCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="5000">
+  <!-- SECCIÓN 5: Reseñas - LO MÁS IMPORTANTE -->
+  <section id="reseñas" class="py-5 mb-5 bg-primary text-white">
+    <div class="container">
       
-      <!-- Indicadores (dots) - MOVIDOS debajo de la imagen -->
-      <div class="carousel-indicators position-relative mb-0" style="bottom: -40px;">
-        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonio 1"></button>
-        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Testimonio 2"></button>
-        <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Testimonio 3"></button>
+      <!-- Título destacado -->
+      <div class="text-center mb-5">
+        <h2 class="display-4 fw-bold mb-3">Lo que dicen nuestros clientes</h2>
+        <div class="mx-auto" style="width: 100px; height: 4px; background: var(--bs-white); border-radius: 2px;"></div>
       </div>
 
-      <!-- Slides -->
-      <div class="carousel-inner">
+      <!-- Carrousel Bootstrap -->
+      <div id="testimonialCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="5000">
         
-        <!-- Slide 1 -->
-        <div class="carousel-item active">
-          <div class="row justify-content-center align-items-center g-4">
-            <div class="col-lg-5">
-              <img src="house3.jpg" 
-                   class="img-fluid rounded shadow-lg" 
-                   alt="Casa del cliente">
-            </div>
-            <div class="col-lg-5">
-              <div class="p-4">
-                <!-- Estrellas -->
-                <div class="mb-3">
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                </div>
-                
-                <!-- Texto -->
-                <blockquote class="blockquote mb-4">
-                  <p class="fs-4 fst-italic mb-3">"Excelente servicio, llegaron puntuales y dejaron mi casa impecable. Los recomiendo totalmente."</p>
-                  <footer class="blockquote-footer text-white fst-italic">
-                    <strong>María González</strong><br>
-                    <cite class="text-white-50">Palermo, Buenos Aires</cite>
-                  </footer>
-                </blockquote>
-                
-                <!-- Badge de confianza -->
-                <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
-                  <i class="bi bi-check-circle-fill"></i>
-                  <small class="fw-semibold">Cliente verificado</small>
+        <!-- Indicadores (dots) - MOVIDOS debajo de la imagen -->
+        <div class="carousel-indicators position-relative mb-0" style="bottom: -40px;">
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonio 1"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Testimonio 2"></button>
+          <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Testimonio 3"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+          
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div class="row justify-content-center align-items-center g-4">
+              <div class="col-lg-5">
+                <img src="house3.jpg" 
+                    class="img-fluid rounded shadow-lg" 
+                    alt="Casa del cliente">
+              </div>
+              <div class="col-lg-5">
+                <div class="p-4">
+                  <!-- Estrellas -->
+                  <div class="mb-3">
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                  </div>
+                  
+                  <!-- Texto -->
+                  <blockquote class="blockquote mb-4">
+                    <p class="fs-4 fst-italic mb-3">"Excelente servicio, llegaron puntuales y dejaron mi casa impecable. Los recomiendo totalmente."</p>
+                    <footer class="blockquote-footer text-white fst-italic">
+                      <strong>María González</strong><br>
+                      <cite class="text-white-50">Palermo, Buenos Aires</cite>
+                    </footer>
+                  </blockquote>
+                  
+                  <!-- Badge de confianza -->
+                  <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
+                    <i class="bi bi-check-circle-fill"></i>
+                    <small class="fw-semibold">Cliente verificado</small>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- Slide 2 -->
-        <div class="carousel-item">
-          <div class="row justify-content-center align-items-center g-4">
-            <div class="col-lg-5">
-              <img src="house2.jpg" 
-                   class="img-fluid rounded shadow-lg" 
-                   alt="Casa del cliente 2">
-            </div>
-            <div class="col-lg-5">
-              <div class="p-4">
-                <div class="mb-3">
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                </div>
-                <blockquote class="blockquote mb-4">
-                  <p class="fs-4 fst-italic mb-3">"Profesionales de primera. Mi casa nunca había estado tan limpia. Super recomendados!"</p>
-                  <footer class="blockquote-footer text-white fst-italic">
-                    <strong>Carlos Martínez</strong><br>
-                    <cite class="text-white-50">Belgrano, Buenos Aires</cite>
-                  </footer>
-                </blockquote>
-                <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
-                  <i class="bi bi-check-circle-fill"></i>
-                  <small class="fw-semibold">Cliente verificado</small>
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div class="row justify-content-center align-items-center g-4">
+              <div class="col-lg-5">
+                <img src="house2.jpg" 
+                    class="img-fluid rounded shadow-lg" 
+                    alt="Casa del cliente 2">
+              </div>
+              <div class="col-lg-5">
+                <div class="p-4">
+                  <div class="mb-3">
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                  </div>
+                  <blockquote class="blockquote mb-4">
+                    <p class="fs-4 fst-italic mb-3">"Profesionales de primera. Mi casa nunca había estado tan limpia. Super recomendados!"</p>
+                    <footer class="blockquote-footer text-white fst-italic">
+                      <strong>Carlos Martínez</strong><br>
+                      <cite class="text-white-50">Belgrano, Buenos Aires</cite>
+                    </footer>
+                  </blockquote>
+                  <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
+                    <i class="bi bi-check-circle-fill"></i>
+                    <small class="fw-semibold">Cliente verificado</small>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <!-- Slide 3 -->
-        <div class="carousel-item">
-          <div class="row justify-content-center align-items-center g-4">
-            <div class="col-lg-5">
-              <img src="house3.jpg" 
-                   class="img-fluid rounded shadow-lg" 
-                   alt="Casa del cliente 3">
-            </div>
-            <div class="col-lg-5">
-              <div class="p-4">
-                <div class="mb-3">
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                  <i class="bi bi-star-fill text-warning fs-3"></i>
-                </div>
-                <blockquote class="blockquote mb-4">
-                  <p class="fs-4 fst-italic mb-3">"El equipo es confiable, puntual y muy detallista. Vuelvo a contratarlos sin dudarlo."</p>
-                  <footer class="blockquote-footer text-white fst-italic">
-                    <strong>Lucía Fernández</strong><br>
-                    <cite class="text-white-50">Recoleta, Buenos Aires</cite>
-                  </footer>
-                </blockquote>
-                <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
-                  <i class="bi bi-check-circle-fill"></i>
-                  <small class="fw-semibold">Cliente verificado</small>
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <div class="row justify-content-center align-items-center g-4">
+              <div class="col-lg-5">
+                <img src="house3.jpg" 
+                    class="img-fluid rounded shadow-lg" 
+                    alt="Casa del cliente 3">
+              </div>
+              <div class="col-lg-5">
+                <div class="p-4">
+                  <div class="mb-3">
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                    <i class="bi bi-star-fill text-warning fs-3"></i>
+                  </div>
+                  <blockquote class="blockquote mb-4">
+                    <p class="fs-4 fst-italic mb-3">"El equipo es confiable, puntual y muy detallista. Vuelvo a contratarlos sin dudarlo."</p>
+                    <footer class="blockquote-footer text-white fst-italic">
+                      <strong>Lucía Fernández</strong><br>
+                      <cite class="text-white-50">Recoleta, Buenos Aires</cite>
+                    </footer>
+                  </blockquote>
+                  <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
+                    <i class="bi bi-check-circle-fill"></i>
+                    <small class="fw-semibold">Cliente verificado</small>
+                  </div>
                 </div>
               </div>
             </div>
@@ -363,9 +363,7 @@ function resenia(){
         </div>
       </div>
     </div>
-  </div>
-</section>
-
+  </section>
   `;
 
 }
