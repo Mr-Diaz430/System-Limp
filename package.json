@@ -1,0 +1,17 @@
+{
+  "name": "system-limp-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:vite": "vite",
+    "build:vite": "vite build",
+    "preview:vite": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "pnpm": "^10.23.0"
+  }
+}
