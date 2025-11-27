@@ -1,4 +1,7 @@
+import { scrollToTop } from "../js/utils/scrollToTop";
+
 export function sobreNosotros() {
+  scrollToTop();
   const container = document.getElementById('content');
  
   container.innerHTML = `

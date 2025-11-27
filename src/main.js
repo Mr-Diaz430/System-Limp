@@ -12,11 +12,10 @@ document.querySelector('#app').innerHTML = `
   ${menu()}
 
   <div id="content">
-    <!-- AQUI SE INYECTA EL CODIGO LEONARDOGAMER -->
   </div>
 
   ${footer()}
-  `;
+`;
 
 router.resolve()
 router.updatePageLinks()
