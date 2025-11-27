@@ -346,7 +346,6 @@ export function inicio() {
   </div>
 </section>
 
-
     <section class="bg-success py-5 bg-primary text-white">
       <div class="container text-center">
         <h2 class="display-5 fw-semibold mb-3">¿Tu casa está lista para brillar?</h2>
