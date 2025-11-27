@@ -34,11 +34,8 @@ export function inicio() {
           
           <!-- Botones -->
           <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center">
-            <a href="/quote" class="btn btn-primary btn-lg px-5 py-3">
-              <i class="bi bi-calculator me-2"></i>Cotizar ahora
-            </a>
-            <a href="tel:+541199999999" class="btn btn-outline-light btn-lg px-5 py-3">
-              <i class="bi bi-telephone me-2"></i>Llamanos
+            <a href="javascript:void(0)" class="btn btn-primary btn-lg px-5 py-3">
+              <i class="bi bi-calculator me-2"></i>Llamanos
             </a>
           </div>
 
@@ -168,7 +165,7 @@ export function inicio() {
                     </div>
                   </div>
                   <div class="d-grid gap-2">
-                    <a href="#" class="btn btn-success btn-sm">Reservar</a>
+                    <a href="javascript:void(0)" class="btn btn-success btn-sm">Reservar</a>
                   </div>
                 </div>
               </div>
@@ -203,7 +200,7 @@ export function inicio() {
                     </div>
                   </div>
                   <div class="d-grid gap-2">
-                    <a href="#" class="btn btn-success btn-sm">Reservar</a>
+                    <a href="javascript:void(0)" class="btn btn-success btn-sm">Reservar</a>
                   </div>
                 </div>
               </div>
@@ -350,7 +347,7 @@ export function inicio() {
       <div class="container text-center">
         <h2 class="display-5 fw-semibold mb-3">¿Tu casa está lista para brillar?</h2>
         <p class="fs-5 mb-4">Reservá ahora y disfrutá de un hogar impecable</p>
-        <a href="#" class="btn btn-success btn-lg">Reservar ahora</a>
+        <a href="javascript:void(0)" class="btn btn-success btn-lg">Reservar ahora</a>
       </div>
     </section>
 
