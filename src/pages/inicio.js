@@ -278,10 +278,10 @@ function resenia(){
                   
                   <!-- Texto -->
                   <blockquote class="blockquote mb-4">
-                    <p class="fs-4 fst-italic mb-3">"Excelente servicio, llegaron puntuales y dejaron mi casa impecable. Los recomiendo totalmente."</p>
+                    <p class="fs-4 fst-italic mb-3">"Excellent service! They arrived on time and left my home spotless. I totally recommend them."</p>
                     <footer class="blockquote-footer text-white fst-italic">
                       <strong>María González</strong><br>
-                      <cite class="text-white-50">Palermo, Buenos Aires</cite>
+                      <cite class="text-white-50">Yerba Buena, Tucuman</cite>
                     </footer>
                   </blockquote>
                   
@@ -316,7 +316,7 @@ function resenia(){
                     <p class="fs-4 fst-italic mb-3">"Profesionales de primera. Mi casa nunca había estado tan limpia. Super recomendados!"</p>
                     <footer class="blockquote-footer text-white fst-italic">
                       <strong>Carlos Martínez</strong><br>
-                      <cite class="text-white-50">Belgrano, Buenos Aires</cite>
+                      <cite class="text-white-50">Yerba Buena, Tucuman</cite>
                     </footer>
                   </blockquote>
                   <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
@@ -349,7 +349,7 @@ function resenia(){
                     <p class="fs-4 fst-italic mb-3">"El equipo es confiable, puntual y muy detallista. Vuelvo a contratarlos sin dudarlo."</p>
                     <footer class="blockquote-footer text-white fst-italic">
                       <strong>Lucía Fernández</strong><br>
-                      <cite class="text-white-50">Recoleta, Buenos Aires</cite>
+                      <cite class="text-white-50">Yerba Buena, Tucuman</cite>
                     </footer>
                   </blockquote>
                   <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
