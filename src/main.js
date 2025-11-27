@@ -11,7 +11,7 @@ document.querySelector('#app').innerHTML = `
 
 
   <div id="content">
-    <!-- AQUI SE INYECTA EL CODIGO -->
+    <!-- AQUI SE INYECTA EL CODIGO LEONARDWATCHs -->
   </div>
 
 
