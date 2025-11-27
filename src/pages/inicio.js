@@ -370,14 +370,20 @@ function resenia(){
 
 }
 
-function divGreen(){
-  return`
-    <section class="bg-success py-5 bg-primary text-white">
+function divGreen() {
+  return `
+    <!-- SECCIÓN 6: CTA FINAL -->
+    <section class="py-5 bg-success text-white">
       <div class="container text-center">
         <h2 class="display-5 fw-semibold mb-3">¿Tu casa está lista para brillar?</h2>
         <p class="fs-5 mb-4">Reservá ahora y disfrutá de un hogar impecable</p>
-        <a href="javascript:void(0)" class="btn btn-success btn-lg">Reservar ahora</a>
+        <a href="/quote" class="btn btn-light btn-lg px-4 py-3" data-navigo>
+          <i class="bi bi-calendar-check me-2"></i>
+          Reservar ahora
+        </a>
       </div>
     </section>
   `;
 }
+
+

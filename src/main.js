@@ -5,6 +5,7 @@ import 'bootstrap';
 import './styles/main.scss' 
 
 document.querySelector('#app').innerHTML = `
+  
   <nav>
     <a href="/" data-navigo>Inicio</a>
     <a href="#servicios">Servicios</a>
