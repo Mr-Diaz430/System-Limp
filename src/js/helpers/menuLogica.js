@@ -1,7 +1,3 @@
-// menu.js
-
-// js/helpers/menuLogica.js
-
 export function activarMenuTransparente() {
   const navbar = document.getElementById('navbar');
   const navbarCollapse = document.getElementById('navbarNav');
