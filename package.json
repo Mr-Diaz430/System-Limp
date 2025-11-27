@@ -4,14 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev:vite": "vite",
-    "build:vite": "vite build",
-    "preview:vite": "vite preview"
+    "vite:dev": "vite",
+    "vite:build": "vite build",
+    "vite:preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^7.2.4"
   },
   "dependencies": {
+    "navigo": "^8.11.1",
     "pnpm": "^10.23.0"
   }
 }
