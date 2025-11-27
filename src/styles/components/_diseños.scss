@@ -1,0 +1,24 @@
+
+.box {
+    height: 70px;         
+    background: #9CDE9F;    
+    z-index: 0;
+    mask: 
+    linear-gradient(0,#0000 30px,#000 0),
+    radial-gradient(30px,#000 calc(100% - 1px),#0000) bottom/55.5px 60px
+  }
+
+.btn-verde {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #9CDE9F;
+  --bs-btn-border-color: #9db17c;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #9cde9fad;
+  --bs-btn-hover-border-color: #9db17cac;
+  --bs-btn-focus-shadow-rgb: 217, 164, 6;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #9db17cac;
+  --bs-btn-active-border-color: #9db17c48;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000;
+}

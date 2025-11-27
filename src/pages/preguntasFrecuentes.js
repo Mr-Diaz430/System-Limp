@@ -3,12 +3,18 @@ export function preguntasFrecuentes() {
 
   container.innerHTML = `
     <div class="container mx-auto px-4 py-5">
+     <div class="w-100 text-center pb-4">
+      <a href="/" class="btn btn-outline-secondary text-center">
+        <i class="bi bi-arrow-left me-2"></i>Volver al inicio
+      </a>
+     </div>
+       
       <div class="mx-auto" style="max-width: 900px;">
         
         <!-- Header -->
-        <div class="mb-5 text-center">
-          <h1 class="display-4 fw-semibold mb-3">Preguntas Frecuentes</h1>
-          <p class="fs-5 text-muted">
+        <div class="text-center">
+          <h1 class="display-5 fw-semibold mb-3">Preguntas Frecuentes</h1>
+          <p class="fs-6 text-muted mb-4">
             Resolvemos tus dudas sobre nuestros servicios de limpieza profesional
           </p>
         </div>
@@ -20,7 +26,7 @@ export function preguntasFrecuentes() {
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                  <i class="bi bi-question-circle text-primary me-2"></i>
+                  <i class="bi bi-question-circle text-primary me-2 fs-4"></i>
                   ¿Qué incluye un servicio de limpieza estándar?
                 </button>
               </h2>
@@ -35,7 +41,7 @@ export function preguntasFrecuentes() {
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                  <i class="bi bi-shield-check text-primary me-2"></i>
+                  <i class="bi bi-shield-check text-primary me-2 fs-4"></i>
                   ¿Cómo verifican a su personal?
                 </button>
               </h2>
@@ -50,7 +56,7 @@ export function preguntasFrecuentes() {
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                  <i class="bi bi-leaf text-primary me-2"></i>
+                  <i class="bi bi-leaf text-primary me-2 fs-4"></i>
                   ¿Usan productos eco-friendly?
                 </button>
               </h2>
@@ -65,7 +71,7 @@ export function preguntasFrecuentes() {
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                  <i class="bi bi-clock-history text-primary me-2"></i>
+                  <i class="bi bi-clock-history text-primary me-2 fs-4"></i>
                   ¿Cuánto tiempo dura cada visita?
                 </button>
               </h2>
@@ -80,7 +86,7 @@ export function preguntasFrecuentes() {
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
-                  <i class="bi bi-coin text-primary me-2"></i>
+                  <i class="bi bi-coin text-primary me-2 fs-4"></i>
                   ¿Qué métodos de pago aceptan?
                 </button>
               </h2>
@@ -96,17 +102,19 @@ export function preguntasFrecuentes() {
         </div>
 
         <!-- CTA -->
-        <div class="bg-primary text-white rounded p-5 text-center">
-          <h2 class="h3 fw-semibold mb-3">¿Tenés otra pregunta?</h2>
-          <p class="mb-4">
+        <div class="bg-success text-white rounded p-5 text-center position-relative">
+        <div class="box top-0 start-0 w-100 position-absolute rounded-2"></div>
+          <h2 class="h3 fw-semibold z-3 position-relative mt-5 ">¿Tenés otra pregunta?</h2>
+          <p class="mb-4 z-3 m-0">
             No dudes en contactarnos, estamos para ayudarte
           </p>
-          <a href="/contact" class="btn btn-success btn-lg">
-            Contactar soporte
+          <a href="/contact" class="btn btn-verde btn-lg">
+            Contactar al Soporte
           </a>
+         
         </div>
-        
       </div>
     </div>
   `;
+  
 }
