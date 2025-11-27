@@ -1,4 +1,7 @@
 import { router } from './router.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import 'bootstrap';
 
 document.querySelector('#app').innerHTML = `
   <nav>
