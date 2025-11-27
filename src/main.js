@@ -6,10 +6,8 @@ import 'bootstrap';
 document.querySelector('#app').innerHTML = `
   <nav>
     <a href="/" data-navigo>Inicio</a>
-    <a href="#">Servicios</a>
-    <a href="#">Trabajos Realizados</a>
-
-    
+    <a href="#servicios">Servicios</a>
+    <a href="#reseñas">Reseñas</a>
     <a href="/sobre-nosotros" data-navigo>Sobre Nosotros</a>
     <a href="/preguntas-frecuentes" data-navigo>FAQ</a>
   </nav>
