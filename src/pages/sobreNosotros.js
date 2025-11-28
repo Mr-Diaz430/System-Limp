@@ -147,7 +147,7 @@ export function sobreNosotros() {
           <p class="my-4 z-3 m-0">
             Uníte a miles de familias que confían en nosotros para mantener sus hogares impecables
           </p>
-          <a href="/contact" class="btn btn-verde btn-lg">
+          <a href="https://web.whatsapp.com/" class="btn btn-verde btn-lg">
             Contactar al Soporte
           </a>  
         </div>

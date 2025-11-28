@@ -111,7 +111,7 @@ export function preguntasFrecuentes() {
           <p class="mb-4 z-3 m-0">
             No dudes en contactarnos, estamos para ayudarte
           </p>
-          <a href="/contact" class="btn btn-verde btn-lg">
+          <a href="https://web.whatsapp.com/" class="btn btn-verde btn-lg">
             Contactar al Soporte
           </a>
          
