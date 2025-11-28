@@ -17,5 +17,5 @@ document.querySelector('#app').innerHTML = `
   ${footer()}
 `;
 
-router.resolve()
-router.updatePageLinks()
+router.resolve();
+router.updatePageLinks();
