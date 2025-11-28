@@ -23,9 +23,9 @@ function hero(){
           class="w-100 h-100 object-cover"
           style="object-fit: cover;"
         >
-          <source src="/src/assets/hero-video.mp4" type="video/mp4">
+          <source src="/hero-video.mp4" type="video/mp4">
           <!-- Fallback -->
-          <img src="/src/assets/hero-fallback.jpg" alt="Casa limpia" class="w-100 h-100 object-cover">
+          <img src="/hero-fallback.jpg" alt="Casa limpia" class="w-100 h-100 object-cover">
         </video>
         
         <!-- Overlay oscuro -->
@@ -263,7 +263,7 @@ function resenia() {
           <div class="carousel-item active">
             <div class="row g-4 align-items-center justify-content-center flex-column flex-lg-row">
               <div class="col-11 col-sm-10 col-md-8 col-lg-5">
-                <img src="house3.jpg" class="img-fluid rounded shadow-lg" alt="Casa 1">
+                <img src="house1.jpg" class="img-fluid rounded shadow-lg" alt="Casa 1">
               </div>
               <div class="col-lg-5">
                 <div class="px-lg-3">
@@ -318,7 +318,7 @@ function resenia() {
               </div>
             </div>
           </div>
-
+        
           <!-- Slide 3 -->
           <div class="carousel-item">
             <div class="row g-4 align-items-center justify-content-center flex-column flex-lg-row">
@@ -371,7 +371,7 @@ function divGreen() {
       <div class="container text-center">
         <h2 class="display-5 fw-semibold mb-3">¿Tu casa está lista para brillar?</h2>
         <p class="fs-5 mb-4">Reservá ahora y disfrutá de un hogar impecable</p>
-        <a href="/quote" class="btn btn-light btn-lg px-4 py-3" data-navigo>
+        <a href="javascript:void(0)" class="btn btn-light btn-lg px-4 py-3" data-navigo>
           <i class="bi bi-calendar-check me-2"></i>
           Reservar ahora
         </a>
