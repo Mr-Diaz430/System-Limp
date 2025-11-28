@@ -152,12 +152,12 @@ function servicios(){
   return`
     <!-- SECCIÓN 4: SERVICIOS -->
     <section id="servicios" class="py-5 bg-light">
-      <div class="container">
+      <div class="container-xl">
         <h2 class="text-center display-5 fw-semibold mb-5">Nuestros servicios</h2>
-        <div class="row g-4">
+        <div class="row g-4 justify-content-center row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
           
           <!-- Servicio 1 (placeholder) -->
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-4 col-xl-5">
             <div class="card h-100 shadow-sm">
               <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400" 
                    class="card-img-top" alt="Limpieza standard">
@@ -192,7 +192,7 @@ function servicios(){
           </div>
 
           <!-- Servicio 2 (placeholder) -->
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-4 col-xl-5">
             <div class="card h-100 shadow-sm">
               <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400" 
                    class="card-img-top" alt="Limpieza mudanza">
@@ -232,23 +232,26 @@ function servicios(){
   `;
 }
 
-function resenia(){ 
+function resenia() {
   return `
-  <!-- SECCIÓN 5: Reseñas - LO MÁS IMPORTANTE -->
+  <!-- SECCIÓN 5: Reseñas -->
   <section id="reseñas" class="py-5 mb-5 bg-primary text-white">
-    <div class="container">
-      
-      <!-- Título destacado -->
+    <div class="container-xl">
+
+      <!-- Título -->
       <div class="text-center mb-5">
         <h2 class="display-4 fw-bold mb-3">Lo que dicen nuestros clientes</h2>
-        <div class="mx-auto" style="width: 100px; height: 4px; background: var(--bs-white); border-radius: 2px;"></div>
+        <div class="mx-auto" style="width:100px;height:4px;background:#fff;border-radius:2px;"></div>
       </div>
 
-      <!-- Carrousel Bootstrap -->
-      <div id="testimonialCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="5000">
-        
-        <!-- Indicadores (dots) - MOVIDOS debajo de la imagen -->
-        <div class="carousel-indicators position-relative mb-0" style="bottom: -40px;">
+      <!-- Carrusel -->
+      <div id="testimonialCarousel"
+           class="carousel slide"
+           data-bs-ride="carousel"
+           data-bs-interval="6000">
+
+        <!-- Indicadores -->
+        <div class="carousel-indicators position-relative mb-0 " style="bottom:-40px;">
           <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonio 1"></button>
           <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Testimonio 2"></button>
           <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Testimonio 3"></button>
@@ -256,18 +259,14 @@ function resenia(){
 
         <!-- Slides -->
         <div class="carousel-inner">
-          
           <!-- Slide 1 -->
           <div class="carousel-item active">
-            <div class="row justify-content-center align-items-center g-4">
-              <div class="col-lg-5">
-                <img src="house3.jpg" 
-                    class="img-fluid rounded shadow-lg" 
-                    alt="Casa del cliente">
+            <div class="row g-4 align-items-center justify-content-center flex-column flex-lg-row">
+              <div class="col-11 col-sm-10 col-md-8 col-lg-5">
+                <img src="house3.jpg" class="img-fluid rounded shadow-lg" alt="Casa 1">
               </div>
               <div class="col-lg-5">
-                <div class="p-4">
-                  <!-- Estrellas -->
+                <div class="px-lg-3">
                   <div class="mb-3">
                     <i class="bi bi-star-fill text-warning fs-3"></i>
                     <i class="bi bi-star-fill text-warning fs-3"></i>
@@ -275,21 +274,16 @@ function resenia(){
                     <i class="bi bi-star-fill text-warning fs-3"></i>
                     <i class="bi bi-star-fill text-warning fs-3"></i>
                   </div>
-                  
-                  <!-- Texto -->
                   <blockquote class="blockquote mb-4">
                     <p class="fs-4 fst-italic mb-3">"Excellent service! They arrived on time and left my home spotless. I totally recommend them."</p>
-                    <footer class="blockquote-footer text-white fst-italic">
+                    <footer class="blockquote-footer text-white">
                       <strong>María González</strong><br>
-                      <cite class="text-white-50">Yerba Buena, Tucuman</cite>
+                      <cite class="text-white-50">Yerba Buena, Tucumán</cite>
                     </footer>
                   </blockquote>
-                  
-                  <!-- Badge de confianza -->
-                  <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
-                    <i class="bi bi-check-circle-fill"></i>
-                    <small class="fw-semibold">Cliente verificado</small>
-                  </div>
+                  <span class="badge rounded-pill bg-success">
+                    <i class="bi bi-check-circle-fill me-1"></i>Cliente verificado
+                  </span>
                 </div>
               </div>
             </div>
@@ -297,14 +291,12 @@ function resenia(){
 
           <!-- Slide 2 -->
           <div class="carousel-item">
-            <div class="row justify-content-center align-items-center g-4">
-              <div class="col-lg-5">
-                <img src="house2.jpg" 
-                    class="img-fluid rounded shadow-lg" 
-                    alt="Casa del cliente 2">
+            <div class="row g-4 align-items-center justify-content-center flex-column flex-lg-row">
+              <div class="col-11 col-sm-10 col-md-8 col-lg-5">
+                <img src="house2.jpg" class="img-fluid rounded shadow-lg" alt="Casa 2">
               </div>
               <div class="col-lg-5">
-                <div class="p-4">
+                <div class="px-lg-3">
                   <div class="mb-3">
                     <i class="bi bi-star-fill text-warning fs-3"></i>
                     <i class="bi bi-star-fill text-warning fs-3"></i>
@@ -314,15 +306,14 @@ function resenia(){
                   </div>
                   <blockquote class="blockquote mb-4">
                     <p class="fs-4 fst-italic mb-3">"Profesionales de primera. Mi casa nunca había estado tan limpia. Super recomendados!"</p>
-                    <footer class="blockquote-footer text-white fst-italic">
+                    <footer class="blockquote-footer text-white">
                       <strong>Carlos Martínez</strong><br>
-                      <cite class="text-white-50">Yerba Buena, Tucuman</cite>
+                      <cite class="text-white-50">Yerba Buena, Tucumán</cite>
                     </footer>
                   </blockquote>
-                  <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
-                    <i class="bi bi-check-circle-fill"></i>
-                    <small class="fw-semibold">Cliente verificado</small>
-                  </div>
+                  <span class="badge rounded-pill bg-success">
+                    <i class="bi bi-check-circle-fill me-1"></i>Cliente verificado
+                  </span>
                 </div>
               </div>
             </div>
@@ -330,14 +321,12 @@ function resenia(){
 
           <!-- Slide 3 -->
           <div class="carousel-item">
-            <div class="row justify-content-center align-items-center g-4">
-              <div class="col-lg-5">
-                <img src="house3.jpg" 
-                    class="img-fluid rounded shadow-lg" 
-                    alt="Casa del cliente 3">
+            <div class="row g-4 align-items-center justify-content-center flex-column flex-lg-row">
+              <div class="col-11 col-sm-10 col-md-8 col-lg-5">
+                <img src="house3.jpg" class="img-fluid rounded shadow-lg" alt="Casa 3">
               </div>
               <div class="col-lg-5">
-                <div class="p-4">
+                <div class="px-lg-3">
                   <div class="mb-3">
                     <i class="bi bi-star-fill text-warning fs-3"></i>
                     <i class="bi bi-star-fill text-warning fs-3"></i>
@@ -347,25 +336,32 @@ function resenia(){
                   </div>
                   <blockquote class="blockquote mb-4">
                     <p class="fs-4 fst-italic mb-3">"El equipo es confiable, puntual y muy detallista. Vuelvo a contratarlos sin dudarlo."</p>
-                    <footer class="blockquote-footer text-white fst-italic">
+                    <footer class="blockquote-footer text-white">
                       <strong>Lucía Fernández</strong><br>
-                      <cite class="text-white-50">Yerba Buena, Tucuman</cite>
+                      <cite class="text-white-50">Yerba Buena, Tucumán</cite>
                     </footer>
                   </blockquote>
-                  <div class="d-inline-flex align-items-center gap-2 bg-success px-3 py-2 rounded-pill">
-                    <i class="bi bi-check-circle-fill"></i>
-                    <small class="fw-semibold">Cliente verificado</small>
-                  </div>
+                  <span class="badge rounded-pill bg-success">
+                    <i class="bi bi-check-circle-fill me-1"></i>Cliente verificado
+                  </span>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <!-- Flechas -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon rounded-circle" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon rounded-circle" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
       </div>
     </div>
-  </section>
-  `;
-
+  </section>`;
 }
 
 function divGreen() {

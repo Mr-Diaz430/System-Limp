@@ -6,7 +6,7 @@ export function sobreNosotros() {
  
   container.innerHTML = `
     <div class="container mx-auto px-4 py-5">
-      <div class="w-100 text-center pb-4 text-lg-start">
+      <div class="w-100 text-center pb-4 text-lg-start pt-4">
         <a href="/" class="btn btn-outline-secondary text-center">
           <i class="bi bi-arrow-left me-2"></i>Volver al inicio
         </a>

@@ -1,0 +1,55 @@
+#navbar {
+    transition: background-color 0.4s ease, color 0.4s ease;
+    background-color: white;
+  
+    .nav-link,
+    .navbar-brand {
+      color: black !important;
+      transition: color 0.4s ease;
+    }
+  
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%280,0,0,0.8%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+  
+    &:not(.scrolled) {
+      background-color: transparent;
+  
+      .nav-link,
+      .navbar-brand {
+        color: white !important;
+      }
+  
+      .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255,255,255,0.8%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+      }
+    }
+  }
+
+/* base común */
+#navbar .navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+  }
+  
+  #navbar .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s ease;
+  }
+  
+  /* colores personalizados */
+  #navbar .navbar-nav .nav-inicio::after       { background-color: #28a745; } /* verde */
+  #navbar .navbar-nav .nav-servicios::after    { background-color: #fd7e14; } /* naranja */
+  #navbar .navbar-nav .nav-resenas::after      { background-color: #6f42c1; } /* púrpura */
+  #navbar .navbar-nav .nav-nosotros::after     { background-color: #dc3545; } /* rojo */
+  #navbar .navbar-nav .nav-faq::after          { background-color: #20c997; } /* turquesa */
+  
+  /* hover */
+  #navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }

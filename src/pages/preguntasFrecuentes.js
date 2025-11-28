@@ -5,8 +5,8 @@ export function preguntasFrecuentes() {
   const container = document.getElementById('content');
 
   container.innerHTML = `
-    <div class="container mx-auto px-4 py-5">
-     <div class="w-100 text-center text-lg-start pb-4">
+    <div class="container mx-auto px-4 py-5 ">
+     <div class="w-100 text-center text-lg-start pb-4 pt-4">
       <a href="/" class="btn btn-outline-secondary text-center ">
         <i class="bi bi-arrow-left me-2"></i>Volver al inicio
       </a>
